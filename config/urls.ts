@@ -1,6 +1,6 @@
 const isProduction = process.env.NODE_ENV === 'production';
 
-const domain = 'bmrk.cc';
+const domain = 'bmrk-mawn.vercel.app/';
 const local = 'localhost:3000';
 const home = isProduction ? domain : local;
 export const protocol = isProduction ? 'https://' : 'http://';
